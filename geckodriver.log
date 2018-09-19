@@ -770,3 +770,55 @@ console.error: PushService:
 
 ###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
 
+1537349310140	geckodriver	INFO	geckodriver 0.21.0
+1537349310145	geckodriver	INFO	Listening on 127.0.0.1:52403
+1537349311147	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2BhakkBVt4nY"
+1537349313760	Marionette	INFO	Listening on port 43647
+1537349313855	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537349313896	Marionette	DEBUG	[2147483649] Frame script loaded
+1537349313897	Marionette	DEBUG	[2147483649] Frame script registered
+1537349313933	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537349402440	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537349402440	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1537349402441	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1537349402485	Marionette	INFO	Stopped listening on port 43647
+[Parent 23571, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537349514938	geckodriver	INFO	geckodriver 0.21.0
+1537349514944	geckodriver	INFO	Listening on 127.0.0.1:38431
+1537349515944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dlLUQBxTZQgt"
+1537349518697	Marionette	INFO	Listening on port 44821
+1537349518766	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537349518821	Marionette	DEBUG	[2147483649] Frame script loaded
+1537349518829	Marionette	DEBUG	[2147483649] Frame script registered
+1537349518860	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537349565026	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537349565026	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1537349565028	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1537349565076	Marionette	INFO	Stopped listening on port 44821
+[Parent 23899, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537349567987	geckodriver	INFO	geckodriver 0.21.0
+1537349567993	geckodriver	INFO	Listening on 127.0.0.1:34613
+1537349568995	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WBVsbIUsBCaD"
+1537349571721	Marionette	INFO	Listening on port 37133
+1537349571804	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537349571850	Marionette	DEBUG	[2147483649] Frame script loaded
+1537349571851	Marionette	DEBUG	[2147483649] Frame script registered
+1537349571869	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537349580857	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537349580858	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1537349580859	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+[Parent 24154, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537349581540	Marionette	INFO	Stopped listening on port 37133
+1537349921286	geckodriver	INFO	geckodriver 0.21.0
+1537349921292	geckodriver	INFO	Listening on 127.0.0.1:58737
+1537349922293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cLSnKzPOaM1e"
+1537349924951	Marionette	INFO	Listening on port 41399
+1537349925009	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537349925049	Marionette	DEBUG	[2147483649] Frame script loaded
+1537349925050	Marionette	DEBUG	[2147483649] Frame script registered
+1537349925099	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537349937643	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537349937643	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1537349937644	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1537349937689	Marionette	INFO	Stopped listening on port 41399
+[Parent 24502, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
