@@ -1,5 +1,8 @@
+from contextlib import contextmanager
 from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.expected_conditions import staleness_of
 from django.test import LiveServerTestCase
 import unittest
 
@@ -11,6 +14,13 @@ class NewVisitorTest(LiveServerTestCase):
 
     def tearDown(self):
         self.browser.quit()
+
+    @contextmanager
+    def wait_for_page_load(self, timeout=30):
+        old_page = self.browser.find_element_by_tag_name("html")
+        yield WebDriverWait(self.browser, timeout).until(
+            staleness_of(old_page)
+        )
 
     def check_for_row_in_list_table(self, row_text):
         table = self.browser.find_element_by_id("id_list_table")
@@ -28,12 +38,38 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox.send_keys('Buy peacock feathers')
         inputbox.send_keys(Keys.ENTER)
 
-        # inputbox1 = self.browser.find_element_by_id('id_new_item')
-        # inputbox1.send_keys('Use peacock feathers to make a fly')
-        # inputbox1.send_keys(Keys.ENTER)
+        with self.wait_for_page_load(timeout=10):
+            self.check_for_row_in_list_table("1: Buy peacock feathers")  
 
-        self.check_for_row_in_list_table("1: Buy peacock feathers")        
-        self.check_for_row_in_list_table("2: Use peacock feathers to make a fly")
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        inputbox.send_keys('Use peacock feathers to make a fly')
+        inputbox.send_keys(Keys.ENTER)
+        edith_list_url = self.browser.current_url
+        self.assertRegex(edith_list_url, "/lists/.+")
+
+        with self.wait_for_page_load(timeout=10):
+            self.check_for_row_in_list_table("1: Buy peacock feathers")        
+            self.check_for_row_in_list_table("2: Use peacock feathers to make a fly")
+
+        self.browser.quit()
+        self.browser = webdriver.Firefox()
+
+        self.browser.get(self.live_server_url)
+        page_text = self.browser.find_elemet_by_tag_name("body").text
+        self.assertNotIn("Buy peacock feathers", page_text)
+        self.assertNotIn("make a fly", page_text)
+
+        inputbox = self.browser.find_element_by_id("id_new_item")
+        inputbox.send_keys("Buy milk")
+        inputbox.send_keys(Keys.ENTER)
+
+        francis_list_url = self.browser.current_url
+        self.assertRegex(francis_list_url, "/lists/.+")
+        self.assertNotEqual(francis_list_url, edith_list_url)
+
+        page_text = self.browser.find_element_by_tag_name("body").text
+        self.assertNotIn("Buy peacock feathers", page_text)
+        self.assertIn("Buy milk", page_text)
 
         self.fail('Finish the test!')
 
