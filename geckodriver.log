@@ -2102,3 +2102,700 @@ _onJSONObjectReady/<()@transport.js:500
 
 ###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
 
+1537429993572	geckodriver	INFO	geckodriver 0.21.0
+1537429993577	geckodriver	INFO	Listening on 127.0.0.1:41069
+1537429994579	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BNyovAHmkmyw"
+1537429997176	Marionette	INFO	Listening on port 41979
+1537429997188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537429997231	Marionette	DEBUG	[2147483649] Frame script loaded
+1537429997232	Marionette	DEBUG	[2147483649] Frame script registered
+1537429997263	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537429997286	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537429997293	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537429997325	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537430000972	Marionette	INFO	Stopped listening on port 41979
+[Parent 25043, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537430111632	geckodriver	INFO	geckodriver 0.21.0
+1537430111638	geckodriver	INFO	Listening on 127.0.0.1:46691
+1537430112643	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.N6O5cqIU3s6o"
+1537430115290	Marionette	INFO	Listening on port 34173
+1537430115363	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537430115407	Marionette	DEBUG	[2147483649] Frame script loaded
+1537430115408	Marionette	DEBUG	[2147483649] Frame script registered
+1537430115444	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537430115466	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537430115473	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537430115520	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537430119131	Marionette	INFO	Stopped listening on port 34173
+[Parent 25369, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537431425894	geckodriver	INFO	geckodriver 0.21.0
+1537431425900	geckodriver	INFO	Listening on 127.0.0.1:60301
+1537431426905	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qKTtS6HyE46u"
+1537431429481	Marionette	INFO	Listening on port 45153
+1537431429519	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537431429560	Marionette	DEBUG	[2147483649] Frame script loaded
+1537431429561	Marionette	DEBUG	[2147483649] Frame script registered
+1537431429579	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537431429595	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537431429614	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537431429634	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537431429788	Marionette	INFO	Stopped listening on port 45153
+1537431429821	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 26082, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1537431522177	geckodriver	INFO	geckodriver 0.21.0
+1537431522182	geckodriver	INFO	Listening on 127.0.0.1:48965
+1537431523188	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.In9NeTbPcbYS"
+1537431525640	Marionette	INFO	Listening on port 46197
+1537431525697	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537431525738	Marionette	DEBUG	[2147483649] Frame script loaded
+1537431525739	Marionette	DEBUG	[2147483649] Frame script registered
+1537431525755	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537431525773	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537431525781	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537431525817	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537431529463	Marionette	INFO	Stopped listening on port 46197
+[Parent 26436, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537431578847	geckodriver	INFO	geckodriver 0.21.0
+1537431578853	geckodriver	INFO	Listening on 127.0.0.1:39765
+1537431579858	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zbLTGu4qpgkJ"
+1537431582471	Marionette	INFO	Listening on port 43401
+1537431582566	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537431582612	Marionette	DEBUG	[2147483649] Frame script loaded
+1537431582613	Marionette	DEBUG	[2147483649] Frame script registered
+1537431582631	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537431582646	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537431582652	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537431582684	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537431586313	Marionette	INFO	Stopped listening on port 43401
+[Parent 26681, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537431798601	geckodriver	INFO	geckodriver 0.21.0
+1537431798608	geckodriver	INFO	Listening on 127.0.0.1:60825
+1537431799612	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pJQrssaI5KkE"
+1537431802080	Marionette	INFO	Listening on port 33923
+1537431802123	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537431802166	Marionette	DEBUG	[2147483649] Frame script loaded
+1537431802167	Marionette	DEBUG	[2147483649] Frame script registered
+1537431802184	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537431802201	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537431802217	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537431802236	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537431805873	Marionette	INFO	Stopped listening on port 33923
+[Parent 27113, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537431905548	geckodriver	INFO	geckodriver 0.21.0
+1537431905554	geckodriver	INFO	Listening on 127.0.0.1:39557
+1537431906559	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sm2UKPHdGaG1"
+1537431909012	Marionette	INFO	Listening on port 43039
+1537431909072	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537431909114	Marionette	DEBUG	[2147483649] Frame script loaded
+1537431909115	Marionette	DEBUG	[2147483649] Frame script registered
+1537431909133	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537431909152	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537431909159	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537431909191	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537431929831	Marionette	INFO	Stopped listening on port 43039
+[Parent 27387, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537431989166	geckodriver	INFO	geckodriver 0.21.0
+1537431989172	geckodriver	INFO	Listening on 127.0.0.1:54893
+1537431990177	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dDeNBqvzTWJX"
+1537431992826	Marionette	INFO	Listening on port 42449
+1537431992903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537431992946	Marionette	DEBUG	[2147483649] Frame script loaded
+1537431992947	Marionette	DEBUG	[2147483649] Frame script registered
+1537431992976	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537431992992	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537431993009	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537431993033	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537432013681	Marionette	INFO	Stopped listening on port 42449
+[Parent 27659, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537432488770	geckodriver	INFO	geckodriver 0.21.0
+1537432488776	geckodriver	INFO	Listening on 127.0.0.1:48169
+1537432489778	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.g5LWt1QgoRH4"
+1537432492413	Marionette	INFO	Listening on port 44701
+1537432492485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537432492530	Marionette	DEBUG	[2147483649] Frame script loaded
+1537432492531	Marionette	DEBUG	[2147483649] Frame script registered
+1537432492551	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537432492565	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537432492577	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537432492601	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537432513231	Marionette	INFO	Stopped listening on port 44701
+1537432513304	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 28391, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537500478807	geckodriver	INFO	geckodriver 0.21.0
+1537500478864	geckodriver	INFO	Listening on 127.0.0.1:44737
+1537500479794	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mQBV1t7VB0Xe"
+1537500482626	Marionette	INFO	Listening on port 36573
+1537500482705	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537500482748	Marionette	DEBUG	[2147483649] Frame script loaded
+1537500482809	Marionette	DEBUG	[2147483649] Frame script registered
+1537500482827	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537500483242	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537500483262	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537500483341	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537500504023	Marionette	INFO	Stopped listening on port 36573
+[Parent 8117, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537500509734	geckodriver	INFO	geckodriver 0.21.0
+1537500509740	geckodriver	INFO	Listening on 127.0.0.1:44287
+1537500510741	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aYcGJd7povpJ"
+1537500513209	Marionette	INFO	Listening on port 37723
+1537500513256	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537500513295	Marionette	DEBUG	[2147483649] Frame script loaded
+1537500513296	Marionette	DEBUG	[2147483649] Frame script registered
+1537500513314	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537500513343	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537500513358	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537500513375	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537500526264	Marionette	INFO	Stopped listening on port 37723
+[Parent 8365, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537507222599	geckodriver	INFO	geckodriver 0.21.0
+1537507222605	geckodriver	INFO	Listening on 127.0.0.1:33019
+1537507223606	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0D60qJ040qYY"
+1537507226066	Marionette	INFO	Listening on port 38563
+1537507226113	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537507226159	Marionette	DEBUG	[2147483649] Frame script loaded
+1537507226161	Marionette	DEBUG	[2147483649] Frame script registered
+1537507226191	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537507226219	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537507226226	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537507226258	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537507241517	Marionette	INFO	Stopped listening on port 38563
+[Parent 10189, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537507268621	geckodriver	INFO	geckodriver 0.21.0
+1537507268629	geckodriver	INFO	Listening on 127.0.0.1:54655
+1537507269632	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pJxyphs5R54P"
+1537507272337	Marionette	INFO	Listening on port 34725
+1537507272340	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537507272382	Marionette	DEBUG	[2147483649] Frame script loaded
+1537507272392	Marionette	DEBUG	[2147483649] Frame script registered
+1537507272428	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537507272461	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537507272468	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537507272509	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537507274473	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+1537507274493	Marionette	INFO	Stopped listening on port 34725
+[Parent 10429, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537507284326	geckodriver	INFO	geckodriver 0.21.0
+1537507284333	geckodriver	INFO	Listening on 127.0.0.1:34893
+1537507285337	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ySEunVOeAK6o"
+1537507287870	Marionette	INFO	Listening on port 40775
+1537507287952	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537507287997	Marionette	DEBUG	[2147483649] Frame script loaded
+1537507287998	Marionette	DEBUG	[2147483649] Frame script registered
+1537507288018	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537507288036	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537507288044	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537507288075	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537507308712	Marionette	INFO	Stopped listening on port 40775
+[Parent 10646, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537509757693	geckodriver	INFO	geckodriver 0.21.0
+1537509757699	geckodriver	INFO	Listening on 127.0.0.1:55175
+1537509758699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WcVmvvJ0geID"
+1537509761215	Marionette	INFO	Listening on port 37405
+1537509761307	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537509761347	Marionette	DEBUG	[2147483649] Frame script loaded
+1537509761348	Marionette	DEBUG	[2147483649] Frame script registered
+1537509761368	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537509761381	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537509761389	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537509761424	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537509762828	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1537509764377	Marionette	INFO	Stopped listening on port 37405
+1537509936879	geckodriver	INFO	geckodriver 0.21.0
+1537509936884	geckodriver	INFO	Listening on 127.0.0.1:46087
+1537509937887	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RYhs1Dpua0Xh"
+1537509940479	Marionette	INFO	Listening on port 32797
+1537509940504	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537509940550	Marionette	DEBUG	[2147483649] Frame script loaded
+1537509940551	Marionette	DEBUG	[2147483649] Frame script registered
+1537509940586	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537509940628	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537509940645	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537509940664	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537509942994	Marionette	INFO	Stopped listening on port 32797
+[Parent 11825, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537510226339	geckodriver	INFO	geckodriver 0.21.0
+1537510226345	geckodriver	INFO	Listening on 127.0.0.1:42155
+1537510227347	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zDJu7ahNBFhq"
+1537510229940	Marionette	INFO	Listening on port 40989
+1537510229962	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537510230002	Marionette	DEBUG	[2147483649] Frame script loaded
+1537510230007	Marionette	DEBUG	[2147483649] Frame script registered
+1537510230023	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537510230045	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537510230052	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537510230086	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537510241015	Marionette	INFO	Stopped listening on port 40989
+[Parent 12301, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537510899013	geckodriver	INFO	geckodriver 0.21.0
+1537510899019	geckodriver	INFO	Listening on 127.0.0.1:54683
+1537510900019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tz1hYIsByHHr"
+1537510902535	Marionette	INFO	Listening on port 46601
+1537510902627	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537510902674	Marionette	DEBUG	[2147483649] Frame script loaded
+1537510902675	Marionette	DEBUG	[2147483649] Frame script registered
+1537510902695	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537510902738	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537510902752	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537510902781	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537510903470	Marionette	INFO	Stopped listening on port 46601
+1537510903497	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1537510982728	geckodriver	INFO	geckodriver 0.21.0
+1537510982731	geckodriver	INFO	Listening on 127.0.0.1:47137
+1537510983736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ufKcErpdJLsV"
+1537510986428	Marionette	INFO	Listening on port 37829
+1537510986451	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537510986494	Marionette	DEBUG	[2147483649] Frame script loaded
+1537510986497	Marionette	DEBUG	[2147483649] Frame script registered
+1537510986536	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537510986567	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537510986573	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537510986607	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537510987313	Marionette	INFO	Stopped listening on port 37829
+1537510987345	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1537511023149	geckodriver	INFO	geckodriver 0.21.0
+1537511023156	geckodriver	INFO	Listening on 127.0.0.1:59601
+1537511024158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.A0DYWeKLzKc5"
+1537511026578	Marionette	INFO	Listening on port 39975
+1537511026679	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537511026719	Marionette	DEBUG	[2147483649] Frame script loaded
+1537511026721	Marionette	DEBUG	[2147483649] Frame script registered
+1537511026742	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537511026787	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537511026795	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537511026840	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537511057628	Marionette	INFO	Stopped listening on port 39975
+[Parent 13314, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537511624488	geckodriver	INFO	geckodriver 0.21.0
+1537511624495	geckodriver	INFO	Listening on 127.0.0.1:39105
+1537511625497	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kRLyZ2pyysM9"
+1537511628007	Marionette	INFO	Listening on port 35673
+1537511628105	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537511628156	Marionette	DEBUG	[2147483649] Frame script loaded
+1537511628157	Marionette	DEBUG	[2147483649] Frame script registered
+1537511628192	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537511628216	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537511628224	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537511628265	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537511628310	Marionette	INFO	Stopped listening on port 35673
+1537511628342	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 13741, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1537511810452	geckodriver	INFO	geckodriver 0.21.0
+1537511810458	geckodriver	INFO	Listening on 127.0.0.1:59489
+1537511811460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DzhCgR4Q86Nr"
+1537511813967	Marionette	INFO	Listening on port 33893
+1537511814067	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537511814117	Marionette	DEBUG	[2147483649] Frame script loaded
+1537511814121	Marionette	DEBUG	[2147483649] Frame script registered
+1537511814143	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537511814165	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537511814171	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537511814212	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537511814919	Marionette	INFO	Stopped listening on port 33893
+1537511814950	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  AbortError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  AbortError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1537512274932	geckodriver	INFO	geckodriver 0.21.0
+1537512274938	geckodriver	INFO	Listening on 127.0.0.1:34105
+1537512275940	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DvftlalDkB8u"
+1537512279148	Marionette	INFO	Listening on port 45371
+1537512279249	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537512279297	Marionette	DEBUG	[2147483649] Frame script loaded
+1537512279299	Marionette	DEBUG	[2147483649] Frame script registered
+1537512279316	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537512279337	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537512279345	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537512279375	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537512280195	Marionette	INFO	Stopped listening on port 45371
+1537512280224	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1537512455777	geckodriver	INFO	geckodriver 0.21.0
+1537512455783	geckodriver	INFO	Listening on 127.0.0.1:60317
+1537512456785	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.okeXrdiTqSTt"
+1537512459610	Marionette	INFO	Listening on port 35227
+1537512459693	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537512459736	Marionette	DEBUG	[2147483649] Frame script loaded
+1537512459737	Marionette	DEBUG	[2147483649] Frame script registered
+1537512459758	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537512459778	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537512459786	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537512459822	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537512459973	Marionette	INFO	Stopped listening on port 35227
+1537512460012	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1537512493999	geckodriver	INFO	geckodriver 0.21.0
+1537512494004	geckodriver	INFO	Listening on 127.0.0.1:38583
+1537512495004	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fG04vFScyve1"
+1537512497645	Marionette	INFO	Listening on port 36887
+1537512497712	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537512497756	Marionette	DEBUG	[2147483649] Frame script loaded
+1537512497757	Marionette	DEBUG	[2147483649] Frame script registered
+1537512497775	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537512497819	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537512497831	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537512497857	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537512498580	Marionette	INFO	Stopped listening on port 36887
+1537512498611	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1537512515371	geckodriver	INFO	geckodriver 0.21.0
+1537512515378	geckodriver	INFO	Listening on 127.0.0.1:41361
+1537512516380	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.axyyIWzjF91E"
+1537512519282	Marionette	INFO	Listening on port 42705
+1537512519293	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537512519335	Marionette	DEBUG	[2147483649] Frame script loaded
+1537512519338	Marionette	DEBUG	[2147483649] Frame script registered
+1537512519375	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537512519404	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537512519417	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537512519436	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537512535476	Marionette	INFO	Stopped listening on port 42705
+[Parent 15200, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537512561661	geckodriver	INFO	geckodriver 0.21.0
+1537512561667	geckodriver	INFO	Listening on 127.0.0.1:38009
+1537512562670	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bZ6OAkd4MMvm"
+1537512565291	Marionette	INFO	Listening on port 46457
+1537512565379	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537512565431	Marionette	DEBUG	[2147483649] Frame script loaded
+1537512565432	Marionette	DEBUG	[2147483649] Frame script registered
+1537512565456	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537512565479	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537512565487	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537512565528	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537512586067	Marionette	INFO	Stopped listening on port 46457
+[Parent 15472, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537512594701	geckodriver	INFO	geckodriver 0.21.0
+1537512594707	geckodriver	INFO	Listening on 127.0.0.1:33145
+1537512595709	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cgOXplQJOkN7"
+1537512598271	Marionette	INFO	Listening on port 41427
+1537512598326	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537512598371	Marionette	DEBUG	[2147483649] Frame script loaded
+1537512598372	Marionette	DEBUG	[2147483649] Frame script registered
+1537512598388	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537512598411	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537512598420	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537512598450	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537512608723	Marionette	INFO	Stopped listening on port 41427
+[Parent 15709, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537512629861	geckodriver	INFO	geckodriver 0.21.0
+1537512629867	geckodriver	INFO	Listening on 127.0.0.1:44531
+1537512630868	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AH56Z7Mg9Ybr"
+1537512633526	Marionette	INFO	Listening on port 37701
+1537512633583	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537512633627	Marionette	DEBUG	[2147483649] Frame script loaded
+1537512633628	Marionette	DEBUG	[2147483649] Frame script registered
+1537512633646	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537512633664	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537512633670	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537512633704	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537512633819	Marionette	INFO	Stopped listening on port 37701
+1537512633852	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Child 16054, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 15967, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 683: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "JSON store: writing data"
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1537513851504	geckodriver	INFO	geckodriver 0.21.0
+1537513851510	geckodriver	INFO	Listening on 127.0.0.1:40903
+1537513852512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.A7Pa2ZBxjWnJ"
+1537513855168	Marionette	INFO	Listening on port 37541
+1537513855232	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537513855270	Marionette	DEBUG	[2147483649] Frame script loaded
+1537513855271	Marionette	DEBUG	[2147483649] Frame script registered
+1537513855307	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537513855332	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537513855338	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537513855376	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537513855472	Marionette	INFO	Stopped listening on port 37541
+1537513855500	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Child 17161, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 17071, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1537513926694	geckodriver	INFO	geckodriver 0.21.0
+1537513926700	geckodriver	INFO	Listening on 127.0.0.1:45001
+1537513927702	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3t45lokp6vLm"
+1537513930619	Marionette	INFO	Listening on port 39225
+1537513930722	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537513930763	Marionette	DEBUG	[2147483649] Frame script loaded
+1537513930764	Marionette	DEBUG	[2147483649] Frame script registered
+1537513930780	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537513930798	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537513930805	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8081/
+1537513930842	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8081/
+1537513930935	Marionette	INFO	Stopped listening on port 39225
+1537513930963	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 17355, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
