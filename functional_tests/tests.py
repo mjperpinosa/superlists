@@ -6,11 +6,26 @@ from selenium.webdriver.support.expected_conditions import staleness_of
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 # from django.test import LiveServerTestCase
-from django.contrib.staticfiles.testing import StaticLiveServerCase
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 
 import unittest
+import sys
 
-class NewVisitorTest(StaticLiveServerCase):
+class NewVisitorTest(StaticLiveServerTestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        for arg in sys.argv:
+            if "liveserver" in arg:
+                cls.server_url = "http://" + arg.split("=")[1]
+                return
+        super().setUpClass()
+        cls.server_url = cls.live_server_url
+
+    @classmethod
+    def tearDownClass(cls):
+        if cls.server_url == cls.live_server_url:
+            super().tearDownClass()
 
     def setUp(self):
         self.browser = webdriver.Firefox()
@@ -33,7 +48,7 @@ class NewVisitorTest(StaticLiveServerCase):
         self.assertIn(row_text, [row.text for row in rows])
 
     def test_can_start_a_list_and_retrieve_it_later(self):
-        self.browser.get(self.live_server_url)
+        self.browser.get(self.server_url)
 
         self.assertIn('To-Do', self.browser.title)
         header_text = self.browser.find_element_by_tag_name('h1').text
@@ -51,6 +66,7 @@ class NewVisitorTest(StaticLiveServerCase):
         
 
         edith_list_url = self.browser.current_url
+        print("Edit URL: " + edith_list_url)
         self.assertRegex(edith_list_url, "/lists/.+")
 
         with self.wait_for_page_load():
@@ -60,7 +76,7 @@ class NewVisitorTest(StaticLiveServerCase):
         self.browser.quit()
         self.browser = webdriver.Firefox()
 
-        self.browser.get(self.live_server_url)
+        self.browser.get(self.server_url)
         page_text = self.browser.find_elemet_by_tag_name("body").text
         self.assertNotIn("Buy peacock feathers", page_text)
         self.assertNotIn("make a fly", page_text)
@@ -81,13 +97,13 @@ class NewVisitorTest(StaticLiveServerCase):
 
     def test_layout_and_styling(self): 
         
-        self.browser.get(self.live_server_url)
+        self.browser.get(self.server_url)
         self.browser.set_window_size(1024, 768)
 
         inputbox = self.browser.find_element_by_id("id_new_item")
         inputbox.send_keys("testing\n")
 
-        inputbox = elf.browser.find_element_by_id("id_new_item")
+        inputbox = self.browser.find_element_by_id("id_new_item")
         self.assertAlmostEqual(
             inputbox.location["x"]+inputbox.size["width"]/2,
             512,
